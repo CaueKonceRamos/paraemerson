@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convite Romântico</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <div class="heart-bg"></div>
+      <img class="hero-image" src="https://i.pinimg.com/originals/82/74/f0/8274f06b34975ff07bc9853bc59b5654.jpg" alt="Foto romântica" />
+      <h1>Ei Emerson, você quer sair comigo?</h1>
+      <p class="intro">Escolha com amor</p>
+
+      <div class="buttons" id="buttonGroup">
+        <button class="btn btn-sim" id="btnYes">Sim</button>
+        <button class="btn btn-nao" id="btnNo">Não</button>
+      </div>
+
+      <div class="schedule hidden" id="scheduleCard">
+        <p>Local: Shopping da Bahia</p>
+        <p>Amanhã às:</p>
+        <div class="times">
+          <button class="time-btn" data-time="18:00">18:00</button>
+          <button class="time-btn" data-time="19:30">19:30</button>
+          <button class="time-btn" data-time="21:00">21:00</button>
+          <button class="time-btn" data-time="outro">Outro horário</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
