@@ -72,8 +72,8 @@ const place = 'Shopping da Bahia';
 
 const sendMessage = (time) => {
   const messageText = time === 'outro'
-    ? `Claro meu amor, quero sair com você amanhã em outro horário no ${place}. Me diz quando e eu vou correndo! 😍`
-    : `Claro meu amor, quero sair com você amanhã às ${time} no ${place}. Você me deixa toda feliz! 😍`;
+    ? `Claro meu amor, quero sair com você amanhã no ${place}. Vamos às: `
+    : `Claro meu amor, quero sair com você amanhã às ${time} no ${place}. Você me deixa todo feliz! 😍`;
   const message = encodeURIComponent(messageText);
   window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
 };
